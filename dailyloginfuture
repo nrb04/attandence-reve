@@ -1,0 +1,4 @@
+#crontab -e
+
+
+@reboot bash -c 'until ping -c1 8.8.8.8 &>/dev/null; do sleep 5; done; /home/badhon/daily_login/login.sh >> /home/badhon/daily_login/cron.log 2>&1'
