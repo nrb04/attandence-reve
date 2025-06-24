@@ -7,7 +7,7 @@ export DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/$(id -u)/bus"
 # ─── Configurations ─────────────────────────────────────────────────────
 USERNAME=""
 PASSWORD=""
-LOGIN_URL="https://hajirakhata.revesoft.com/Login.do"
+LOGIN_URL="https://Login.do"
 STAMP="/home/badhon/daily_login/last_login_success.stamp"
 RESPONSE="/home/badhon/daily_login/login_response.html"
 LOGFILE="/home/badhon/daily_login/login.log"
